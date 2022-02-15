@@ -13,7 +13,110 @@
   </head>
   <body>
 
-    <h1>Hello, world!</h1>
+    <header>
+
+      <!-- placeholder navbar -->
+      <nav class="navbar navbar-collapse bg-dark opacity-75 navbar-dark p-3 fixed-top">
+        <a class="navbar-brand" href="#">Nate's Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part1">Part 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part2">Part 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part3">Part 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part4  ">Part 4</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- jumbotron-->
+      <div id="myJumbo" class="jumbotron d-flex mt-5">
+        <div class="row justify-content-center">
+          <h1 class="col-4">My name is Nathan Silva, and this is my Resume</h1>
+          <p class="col-2 offset-2">
+            <a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about me</a>
+          </p>
+          <p class="col-2 offset-2">
+            <a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about my work</a>
+          </p>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+      
+      <div id="myProfile" class="container d-flex parallax">
+        <div class="row">
+          <div class="col">
+            <img src="" alt="">
+            <h3>Basic Description of myself</h3>
+          </div>
+          <div class="col">
+            <div id="myAccordion">
+              <div class="card">
+                <div class="card-header" id="skills">
+                  <h5 class="mb-0">
+                    <button class="btn btn-outline-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      What Skills I Possess
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#myAccordion">
+                  <div class="card-body">
+                    I have a general understanding of HTML, CSS, JS, and utilise bootstrap.
+                    Skills outside of coding include: English, Spanish(basic), and am a certified paraeducator.                  
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="futSkils">
+                  <h5 class="mb-0">
+                    <button class="btn btn-outline-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What Skills I plan to Learn
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#myAccordion">
+                  <div class="card-body">
+                    I plan on learning how to develop websites through Wordpress, and also through React.
+                    Skills outside of coding: I am currently learn French and plan to become a polyglot.                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 
+        Have mock cover-page for personal site link with <a> tag(col 1)
+        Personal Contact form(col 2)
+       -->
+    </main>
+
+    <footer>
+      <!-- 
+        Have link to all social media pages along with appropriate icons
+       -->
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
