@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="CSS/style.css">
     <title>Starter Template</title>
@@ -16,50 +17,39 @@
     <header>
 
       <!-- placeholder navbar -->
-      <nav class="navbar navbar-collapse bg-dark opacity-75 navbar-dark p-3 fixed-top">
+      <nav class="navbar navbar-collapse bg-dark opacity-75 navbar-dark p-3">
         <a class="navbar-brand" href="#">Nate's Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#myHead">Header</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#part1">Part 1</a>
+              <a class="nav-link" href="#myProfile">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#part2">Part 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part3">Part 3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part4  ">Part 4</a>
+              <a class="nav-link" href="#myBusiness">Contact Me</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <!-- jumbotron-->
-      <div id="myJumbo" class="jumbotron d-flex mt-5">
-        <div class="row justify-content-center">
-          <h1 class="col-4">My name is Nathan Silva, and this is my Resume</h1>
-          <p class="col-2 offset-2">
-            <a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about me</a>
-          </p>
-          <p class="col-2 offset-2">
-            <a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about my work</a>
-          </p>
-        </div>
+      <div id="myHead" class="container-fluid text-center py-3 box">
+        <h1>Welcome to my Resume!</h1>
+        <p><a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about me</a></p>
+        <p><a href="#" role="button" class="btn btn-outline-dark btn-lg">Learn more about my work</a></p>
       </div>
 
     </header>
 
     <main>
       
-      <div id="myProfile" class="container d-flex parallax">
+      <!-- Profile -->
+      <div id="myProfile" class="container py-3 box">
         <div class="row">
           <div class="col">
             <img src="" alt="">
@@ -76,7 +66,7 @@
                   </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#myAccordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
                   <div class="card-body">
                     I have a general understanding of HTML, CSS, JS, and utilise bootstrap.
                     Skills outside of coding include: English, Spanish(basic), and am a certified paraeducator.                  
@@ -106,16 +96,33 @@
         </div>
       </div>
       
-      <!-- 
-        Have mock cover-page for personal site link with <a> tag(col 1)
-        Personal Contact form(col 2)
-       -->
+      <!-- Contact -->
+      <div id="myBusiness" class="container py-3 box">
+        <div class="row">
+          <div class="col">
+            <img src="" alt="">
+            <h3>Placeholder for website thumbnail</h3> <!-- Learn how to Thumbnail Before styling page -->
+          </div>
+          <div class="col">
+            <h3>Placeholder for contact form</h3> <!-- Learn how to make a contact form before you style the page -->
+          </div>
+        </div>
+      </div>
+
     </main>
 
-    <footer>
-      <!-- 
-        Have link to all social media pages along with appropriate icons
-       -->
+    <!-- Footer including alt contact -->
+    <footer class="container-fluid bg-dark py-3">
+      
+      <div class="p-3">
+        <h4 class="fw-bold text-center text-white">You can also contact me here:</h4>
+      </div>
+      <div class="d-flex justify-content-center p-3">
+        <button type="button" class="btn btn-default btn-circle text-white"><i class="bi bi-twitter"></i></button>
+        <button type="button" class="btn btn-default btn-circle text-white"><i class="bi bi-facebook"></i></button>
+        <button type="button" class="btn btn-default btn-circle text-white"><i class="bi bi-instagram"></i></button>
+      </div>
+
     </footer>
 
     <!-- Optional JavaScript -->
