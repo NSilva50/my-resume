@@ -1,21 +1,41 @@
-html{
+html {
     height: 100%;
     width: 100%;
 }
 
-.box{
-    height: 100vh;
+.box {
+    height: 50vh;
     width: 100vw;
 }
 
-#myHead{
-    /* bgIMG */
+nav {
+    font-family: 'Shizuru', cursive;
 }
 
-#myProfile{
-    /* bgIMG */
+#myHead {
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: #ccc;
 }
 
-#myBusiness{
-    /* bgIMG */
+/* Contact Form CSS */
+#contactForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2% 5%;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+}
+input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Roboto Serif', sans-serif;
 }
