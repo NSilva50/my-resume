@@ -1,10 +1,10 @@
-# Bootstrap-Boilerplate
+# My Resume
 
-# Bootstrap-Template
+# Resume Template
 ### For regular use
 
 ## Description
-A basic HTML5 Bootstrap template, including the required CSS and JS for Bootstrap to run.
+A basic HTML5 Resume, including the required CSS and JS for Bootstrap to run.
 
 ## What you need
 - Understanding of [Bootstrap] (https://getbootstrap.com/)
